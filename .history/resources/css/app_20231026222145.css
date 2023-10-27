@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);
+    height: 110vh;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Cormorant Garamond', serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Roboto', sans-serif;
+
+}
+.header{
+    background-color: #baf1d3;
+    padding:0px;
+}
+ul i{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: -150px;
+
+}
+p{
+    margin-top: -40px;
+}
+ul i li {
+    text-decoration:none ;
+    color: #000;
+    text-transform: uppercase ;
+   border: 1px transparent;
+   background-color: rgb(177, 228, 177);
+   border-radius: 10px;
+    margin: 25px;
+    font-weight: bold;
+}
+.principale{
+    max-width: 114rem  ;
+    margin: 0 auto;
+}
+@media (max-width:733px) {
+    ul li a{
+flex-direction: column;
+align-items: center;
+margin: 0;
+left: 20%;
+    }
+}
+.titre h1{
+    color: #fff;
+    font-weight: bold;
+}
+.logo{
+    width: 200px;
+    height: 180px;
+
+}
+
+@media all and (max-width: 290px) {
+    .titre {
+        top: 40%;
+    }
+
+    .button {
+        top: 50%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button a {
+        margin: 10px 0;
+    }
+}
+.image-container{
+    text-align: center;
+}
+.image-container img{
+    display: inline-block;
+    margin: 10px;
+}
+/* CSS */
+.scrolling-text {
+    white-space: nowrap;
+    overflow: hidden;
+    animation: scroll-text 20s linear infinite;
+}
+
+@keyframes scroll-text {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+.image-container {
+    margin-top: 50px;
+    margin-block: flex;
+}
+
+.image-container img {
+    width: 280px;
+   height: 300px;
+
+}
