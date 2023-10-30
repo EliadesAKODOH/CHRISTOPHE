@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 20,
+            "activePatchIndex": 178,
             "patches": [
                 {
                     "date": 1698355021907,
@@ -88,6 +88,638 @@
                 {
                     "date": 1698400768168,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,9 @@\n             </div>\n         </div>\n     </div>\n     <div class=\"image-container\">\n-   \n+\n </body>\n \n </html>\n <style>\n"
+                },
+                {
+                    "date": 1698483571242,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     <script src=\"https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js\" integrity=\"sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r\" crossorigin=\"anonymous\"></script>\n     <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js\" integrity=\"sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa\" crossorigin=\"anonymous\"></script>\n     <header class=\"header\">\n         <div>\n-            <img src=\"18.png\" alt=\"LogoDgi\" class=\"logo\">\n+            <img src=\"C:\\Users\\eliad\\Documents\\GitHub\\projet\\Decor\\Christophe\\public\\Nouveau dossier (2)\\18.png\" alt=\"LogoDgi\" class=\"logo\">\n         </div>\n         <div>\n             <ul>\n                 <i>\n"
+                },
+                {
+                    "date": 1698483599104,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     <script src=\"https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js\" integrity=\"sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r\" crossorigin=\"anonymous\"></script>\n     <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js\" integrity=\"sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa\" crossorigin=\"anonymous\"></script>\n     <header class=\"header\">\n         <div>\n-            <img src=\"C:\\Users\\eliad\\Documents\\GitHub\\projet\\Decor\\Christophe\\public\\Nouveau dossier (2)\\18.png\" alt=\"LogoDgi\" class=\"logo\">\n+            <img src=\"18.png\" alt=\"LogoDgi\" class=\"logo\">\n         </div>\n         <div>\n             <ul>\n                 <i>\n"
+                },
+                {
+                    "date": 1698483795638,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     <script src=\"https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js\" integrity=\"sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r\" crossorigin=\"anonymous\"></script>\n     <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js\" integrity=\"sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa\" crossorigin=\"anonymous\"></script>\n     <header class=\"header\">\n         <div>\n-            <img src=\"18.png\" alt=\"LogoDgi\" class=\"logo\">\n+            <img src=\"{{18.png}}\" alt=\"LogoDgi\" class=\"logo\">\n         </div>\n         <div>\n             <ul>\n                 <i>\n"
+                },
+                {
+                    "date": 1698483804396,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     <script src=\"https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js\" integrity=\"sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r\" crossorigin=\"anonymous\"></script>\n     <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js\" integrity=\"sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa\" crossorigin=\"anonymous\"></script>\n     <header class=\"header\">\n         <div>\n-            <img src=\"{{18.png}}\" alt=\"LogoDgi\" class=\"logo\">\n+            <img src=\"{{ asset18.png}}\" alt=\"LogoDgi\" class=\"logo\">\n         </div>\n         <div>\n             <ul>\n                 <i>\n"
+                },
+                {
+                    "date": 1698483811690,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     <script src=\"https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js\" integrity=\"sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r\" crossorigin=\"anonymous\"></script>\n     <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js\" integrity=\"sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa\" crossorigin=\"anonymous\"></script>\n     <header class=\"header\">\n         <div>\n-            <img src=\"{{ asset18.png}}\" alt=\"LogoDgi\" class=\"logo\">\n+            <img src=\"{{ asset('') 18.png}}\" alt=\"LogoDgi\" class=\"logo\">\n         </div>\n         <div>\n             <ul>\n                 <i>\n"
+                },
+                {
+                    "date": 1698483822400,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     <script src=\"https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js\" integrity=\"sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r\" crossorigin=\"anonymous\"></script>\n     <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js\" integrity=\"sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa\" crossorigin=\"anonymous\"></script>\n     <header class=\"header\">\n         <div>\n-            <img src=\"{{ asset('') 18.png}}\" alt=\"LogoDgi\" class=\"logo\">\n+            <img src=\"{{ asset('Nouveau dossier (2)/18.png') 18.png}}\" alt=\"LogoDgi\" class=\"logo\">\n         </div>\n         <div>\n             <ul>\n                 <i>\n"
+                },
+                {
+                    "date": 1698483828596,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     <script src=\"https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js\" integrity=\"sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r\" crossorigin=\"anonymous\"></script>\n     <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js\" integrity=\"sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa\" crossorigin=\"anonymous\"></script>\n     <header class=\"header\">\n         <div>\n-            <img src=\"{{ asset('Nouveau dossier (2)/18.png') 18.png}}\" alt=\"LogoDgi\" class=\"logo\">\n+            <img src=\"{{ asset('Nouveau dossier (2)/18.png') }}\" alt=\"LogoDgi\" class=\"logo\">\n         </div>\n         <div>\n             <ul>\n                 <i>\n"
+                },
+                {
+                    "date": 1698483905733,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     <script src=\"https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js\" integrity=\"sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r\" crossorigin=\"anonymous\"></script>\n     <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js\" integrity=\"sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa\" crossorigin=\"anonymous\"></script>\n     <header class=\"header\">\n         <div>\n-            <img src=\"{{ asset('Nouveau dossier (2)/18.png') }}\" alt=\"LogoDgi\" class=\"logo\">\n+            <img src=\"{{ asset('Nouveau dossier (2)/18.png')}}\" alt=\"LogoDgi\" class=\"logo\">\n         </div>\n         <div>\n             <ul>\n                 <i>\n"
+                },
+                {
+                    "date": 1698483950657,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,12 +13,10 @@\n     <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm\" crossorigin=\"anonymous\"></script>\n     <script src=\"https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js\" integrity=\"sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r\" crossorigin=\"anonymous\"></script>\n     <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js\" integrity=\"sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa\" crossorigin=\"anonymous\"></script>\n     <header class=\"header\">\n+       \n         <div>\n-            <img src=\"{{ asset('Nouveau dossier (2)/18.png')}}\" alt=\"LogoDgi\" class=\"logo\">\n-        </div>\n-        <div>\n             <ul>\n                 <i>\n                 <li>ANNIVERSAIRE</li>\n                 <li>MARIAGE</li>\n"
+                },
+                {
+                    "date": 1698484012934,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,10 +13,13 @@\n     <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm\" crossorigin=\"anonymous\"></script>\n     <script src=\"https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js\" integrity=\"sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r\" crossorigin=\"anonymous\"></script>\n     <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js\" integrity=\"sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa\" crossorigin=\"anonymous\"></script>\n     <header class=\"header\">\n-       \n+\n         <div>\n+            <div>\n+                <img src=\"{{ asset('Nouveau dossier (2)/18.png')}}\" alt=\"LogoDgi\" class=\"logo\">\n+            </div>\n             <ul>\n                 <i>\n                 <li>ANNIVERSAIRE</li>\n                 <li>MARIAGE</li>\n@@ -44,9 +47,9 @@\n                 <center><h1><i> NOUS ASSURONS L'EMBELLISSEMENT DE VOS EVENEMENTS </i></h1></center>\n             </div>\n         </div>\n     </div>\n-    <div class=\"image-container\">\n+    \n \n </body>\n \n </html>\n"
+                },
+                {
+                    "date": 1698484030382,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,8 @@\n                 <center><h1><i> NOUS ASSURONS L'EMBELLISSEMENT DE VOS EVENEMENTS </i></h1></center>\n             </div>\n         </div>\n     </div>\n-    \n \n </body>\n \n </html>\n"
+                },
+                {
+                    "date": 1698484035704,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,8 @@\n                 <center><h1><i> NOUS ASSURONS L'EMBELLISSEMENT DE VOS EVENEMENTS </i></h1></center>\n             </div>\n         </div>\n     </div>\n-\n </body>\n \n </html>\n <style>\n"
+                },
+                {
+                    "date": 1698484041734,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,8 +47,9 @@\n                 <center><h1><i> NOUS ASSURONS L'EMBELLISSEMENT DE VOS EVENEMENTS </i></h1></center>\n             </div>\n         </div>\n     </div>\n+    <div class=\"image-container\">\n </body>\n \n </html>\n <style>\n"
+                },
+                {
+                    "date": 1698484048548,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,8 +48,9 @@\n             </div>\n         </div>\n     </div>\n     <div class=\"image-container\">\n+        \n </body>\n \n </html>\n <style>\n"
+                },
+                {
+                    "date": 1698484055214,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,9 +48,9 @@\n             </div>\n         </div>\n     </div>\n     <div class=\"image-container\">\n-        \n+        <\n </body>\n \n </html>\n <style>\n"
+                },
+                {
+                    "date": 1698484063695,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,9 +48,10 @@\n             </div>\n         </div>\n     </div>\n     <div class=\"image-container\">\n-        <\n+        \n+    </div>\n </body>\n \n </html>\n <style>\n"
+                },
+                {
+                    "date": 1698484103956,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,9 +48,9 @@\n             </div>\n         </div>\n     </div>\n     <div class=\"image-container\">\n-        \n+        <img src=\"{{ asset('Nouveau dossier (2)/18.png')}}\" alt=\"LogoDgi\" class=\"logo\">\n     </div>\n </body>\n \n </html>\n"
+                },
+                {
+                    "date": 1698484114919,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,9 +48,9 @@\n             </div>\n         </div>\n     </div>\n     <div class=\"image-container\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/18.png')}}\" alt=\"LogoDgi\" class=\"logo\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"LogoDgi\" class=\"logo\">\n     </div>\n </body>\n \n </html>\n"
+                },
+                {
+                    "date": 1698484124912,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,9 +48,9 @@\n             </div>\n         </div>\n     </div>\n     <div class=\"image-container\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"LogoDgi\" class=\"logo\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"I\" class=\"logo\">\n     </div>\n </body>\n \n </html>\n"
+                },
+                {
+                    "date": 1698484129982,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,9 +48,9 @@\n             </div>\n         </div>\n     </div>\n     <div class=\"image-container\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"I\" class=\"logo\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"Image 1\" class=\"logo\">\n     </div>\n </body>\n \n </html>\n"
+                },
+                {
+                    "date": 1698484176357,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,9 +48,9 @@\n             </div>\n         </div>\n     </div>\n     <div class=\"image-container\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"Image 1\" class=\"logo\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"Image 1\" \">\n     </div>\n </body>\n \n </html>\n"
+                },
+                {
+                    "date": 1698484187899,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,9 +48,13 @@\n             </div>\n         </div>\n     </div>\n     <div class=\"image-container\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"Image 1\" \">\n+        <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"Image 1\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"Image 1\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"Image 1\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"Image 1\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"Image 1\">\n     </div>\n </body>\n \n </html>\n"
+                },
+                {
+                    "date": 1698484200155,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,9 +52,8 @@\n         <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"Image 1\">\n         <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"Image 1\">\n         <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"Image 1\">\n         <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"Image 1\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"Image 1\">\n     </div>\n </body>\n \n </html>\n"
+                },
+                {
+                    "date": 1698484205201,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,11 +49,11 @@\n         </div>\n     </div>\n     <div class=\"image-container\">\n         <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"Image 1\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"Image 2\">\n         <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"Image 1\">\n         <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"Image 1\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"Image 1\">\n     </div>\n </body>\n \n </html>\n"
+                },
+                {
+                    "date": 1698484210929,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,10 +50,10 @@\n     </div>\n     <div class=\"image-container\">\n         <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"Image 1\">\n         <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"Image 2\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"Image 1\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"Image 1\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"Image 3\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"Image 4\">\n     </div>\n </body>\n \n </html>\n"
+                },
+                {
+                    "date": 1698484219884,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,9 @@\n         </div>\n     </div>\n     <div class=\"image-container\">\n         <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"Image 1\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"Image 2\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/8.png')}}\" alt=\"Image 2\">\n         <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"Image 3\">\n         <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"Image 4\">\n     </div>\n </body>\n"
+                },
+                {
+                    "date": 1698484226346,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n     </div>\n     <div class=\"image-container\">\n         <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"Image 1\">\n         <img src=\"{{ asset('Nouveau dossier (2)/8.png')}}\" alt=\"Image 2\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"Image 3\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/13.png')}}\" alt=\"Image 3\">\n         <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"Image 4\">\n     </div>\n </body>\n \n"
+                },
+                {
+                    "date": 1698484232931,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,9 +51,9 @@\n     <div class=\"image-container\">\n         <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"Image 1\">\n         <img src=\"{{ asset('Nouveau dossier (2)/8.png')}}\" alt=\"Image 2\">\n         <img src=\"{{ asset('Nouveau dossier (2)/13.png')}}\" alt=\"Image 3\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"Image 4\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/14.png')}}\" alt=\"Image 4\">\n     </div>\n </body>\n \n </html>\n"
+                },
+                {
+                    "date": 1698484387464,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,9 +48,9 @@\n             </div>\n         </div>\n     </div>\n     <div class=\"image-container\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/4.png')}}\" alt=\"Image 1\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/4.JP')}}\" alt=\"Image 1\">\n         <img src=\"{{ asset('Nouveau dossier (2)/8.png')}}\" alt=\"Image 2\">\n         <img src=\"{{ asset('Nouveau dossier (2)/13.png')}}\" alt=\"Image 3\">\n         <img src=\"{{ asset('Nouveau dossier (2)/14.png')}}\" alt=\"Image 4\">\n     </div>\n"
+                },
+                {
+                    "date": 1698484392963,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,9 +48,9 @@\n             </div>\n         </div>\n     </div>\n     <div class=\"image-container\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/4.JP')}}\" alt=\"Image 1\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/4.JPG')}}\" alt=\"Image 1\">\n         <img src=\"{{ asset('Nouveau dossier (2)/8.png')}}\" alt=\"Image 2\">\n         <img src=\"{{ asset('Nouveau dossier (2)/13.png')}}\" alt=\"Image 3\">\n         <img src=\"{{ asset('Nouveau dossier (2)/14.png')}}\" alt=\"Image 4\">\n     </div>\n"
+                },
+                {
+                    "date": 1698484419160,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n     <header class=\"header\">\n \n         <div>\n             <div>\n-                <img src=\"{{ asset('Nouveau dossier (2)/18.png')}}\" alt=\"LogoDgi\" class=\"logo\">\n+                <img src=\"{{ asset('Nouveau dossier (2)/18.J')}}\" alt=\"LogoDgi\" class=\"logo\">\n             </div>\n             <ul>\n                 <i>\n                 <li>ANNIVERSAIRE</li>\n"
+                },
+                {
+                    "date": 1698484425989,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n     <header class=\"header\">\n \n         <div>\n             <div>\n-                <img src=\"{{ asset('Nouveau dossier (2)/18.J')}}\" alt=\"LogoDgi\" class=\"logo\">\n+                <img src=\"{{ asset('Nouveau dossier (2)/18.jpg')}}\" alt=\"LogoDgi\" class=\"logo\">\n             </div>\n             <ul>\n                 <i>\n                 <li>ANNIVERSAIRE</li>\n"
+                },
+                {
+                    "date": 1698484450393,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n     <header class=\"header\">\n \n         <div>\n             <div>\n-                <img src=\"{{ asset('Nouveau dossier (2)/18.jpg')}}\" alt=\"LogoDgi\" class=\"logo\">\n+                <img src=\"{{ asset('Nouveau dossier (2)/18.j')}}\" alt=\"LogoDgi\" class=\"logo\">\n             </div>\n             <ul>\n                 <i>\n                 <li>ANNIVERSAIRE</li>\n"
+                },
+                {
+                    "date": 1698484500592,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n     <header class=\"header\">\n \n         <div>\n             <div>\n-                <img src=\"{{ asset('Nouveau dossier (2)/18.j')}}\" alt=\"LogoDgi\" class=\"logo\">\n+                <img src=\"{{ asset('Nouveau dossier (2)/18.p')}}\" alt=\"LogoDgi\" class=\"logo\">\n             </div>\n             <ul>\n                 <i>\n                 <li>ANNIVERSAIRE</li>\n"
+                },
+                {
+                    "date": 1698484512871,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n     <header class=\"header\">\n \n         <div>\n             <div>\n-                <img src=\"{{ asset('Nouveau dossier (2)/18.p')}}\" alt=\"LogoDgi\" class=\"logo\">\n+                <img src=\"{{ asset('Nouveau dossier (2)/18.jpg')}}\" alt=\"LogoDgi\" class=\"logo\">\n             </div>\n             <ul>\n                 <i>\n                 <li>ANNIVERSAIRE</li>\n@@ -48,9 +48,9 @@\n             </div>\n         </div>\n     </div>\n     <div class=\"image-container\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/4.JPG')}}\" alt=\"Image 1\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/4.jpg')}}\" alt=\"Image 1\">\n         <img src=\"{{ asset('Nouveau dossier (2)/8.png')}}\" alt=\"Image 2\">\n         <img src=\"{{ asset('Nouveau dossier (2)/13.png')}}\" alt=\"Image 3\">\n         <img src=\"{{ asset('Nouveau dossier (2)/14.png')}}\" alt=\"Image 4\">\n     </div>\n"
+                },
+                {
+                    "date": 1698484526853,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,9 @@\n         </div>\n     </div>\n     <div class=\"image-container\">\n         <img src=\"{{ asset('Nouveau dossier (2)/4.jpg')}}\" alt=\"Image 1\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/8.png')}}\" alt=\"Image 2\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/8.jpg')}}\" alt=\"Image 2\">\n         <img src=\"{{ asset('Nouveau dossier (2)/13.png')}}\" alt=\"Image 3\">\n         <img src=\"{{ asset('Nouveau dossier (2)/14.png')}}\" alt=\"Image 4\">\n     </div>\n </body>\n"
+                },
+                {
+                    "date": 1698484535577,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,10 +50,10 @@\n     </div>\n     <div class=\"image-container\">\n         <img src=\"{{ asset('Nouveau dossier (2)/4.jpg')}}\" alt=\"Image 1\">\n         <img src=\"{{ asset('Nouveau dossier (2)/8.jpg')}}\" alt=\"Image 2\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/13.png')}}\" alt=\"Image 3\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/14.png')}}\" alt=\"Image 4\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/13.jpg')}}\" alt=\"Image 3\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/14.jpg')}}\" alt=\"Image 4\">\n     </div>\n </body>\n \n </html>\n"
+                },
+                {
+                    "date": 1698484557124,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,8 +52,9 @@\n         <img src=\"{{ asset('Nouveau dossier (2)/4.jpg')}}\" alt=\"Image 1\">\n         <img src=\"{{ asset('Nouveau dossier (2)/8.jpg')}}\" alt=\"Image 2\">\n         <img src=\"{{ asset('Nouveau dossier (2)/13.jpg')}}\" alt=\"Image 3\">\n         <img src=\"{{ asset('Nouveau dossier (2)/14.jpg')}}\" alt=\"Image 4\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/14.jpg')}}\" alt=\"Image 4\">\n     </div>\n </body>\n \n </html>\n"
+                },
+                {
+                    "date": 1698484576820,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,9 +52,9 @@\n         <img src=\"{{ asset('Nouveau dossier (2)/4.jpg')}}\" alt=\"Image 1\">\n         <img src=\"{{ asset('Nouveau dossier (2)/8.jpg')}}\" alt=\"Image 2\">\n         <img src=\"{{ asset('Nouveau dossier (2)/13.jpg')}}\" alt=\"Image 3\">\n         <img src=\"{{ asset('Nouveau dossier (2)/14.jpg')}}\" alt=\"Image 4\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/14.jpg')}}\" alt=\"Image 4\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/11.jpg')}}\" alt=\"Image 4\">\n     </div>\n </body>\n \n </html>\n"
+                },
+                {
+                    "date": 1698484625172,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,9 +48,9 @@\n             </div>\n         </div>\n     </div>\n     <div class=\"image-container\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/4.jpg')}}\" alt=\"Image 1\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/.jpg')}}\" alt=\"Image 1\">\n         <img src=\"{{ asset('Nouveau dossier (2)/8.jpg')}}\" alt=\"Image 2\">\n         <img src=\"{{ asset('Nouveau dossier (2)/13.jpg')}}\" alt=\"Image 3\">\n         <img src=\"{{ asset('Nouveau dossier (2)/14.jpg')}}\" alt=\"Image 4\">\n         <img src=\"{{ asset('Nouveau dossier (2)/11.jpg')}}\" alt=\"Image 4\">\n"
+                },
+                {
+                    "date": 1698484636418,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,10 +48,10 @@\n             </div>\n         </div>\n     </div>\n     <div class=\"image-container\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/.jpg')}}\" alt=\"Image 1\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/8.jpg')}}\" alt=\"Image 2\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/3.jpg')}}\" alt=\"Image 1\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/4.jpg')}}\" alt=\"Image 2\">\n         <img src=\"{{ asset('Nouveau dossier (2)/13.jpg')}}\" alt=\"Image 3\">\n         <img src=\"{{ asset('Nouveau dossier (2)/14.jpg')}}\" alt=\"Image 4\">\n         <img src=\"{{ asset('Nouveau dossier (2)/11.jpg')}}\" alt=\"Image 4\">\n     </div>\n"
+                },
+                {
+                    "date": 1698484644480,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,10 +50,10 @@\n     </div>\n     <div class=\"image-container\">\n         <img src=\"{{ asset('Nouveau dossier (2)/3.jpg')}}\" alt=\"Image 1\">\n         <img src=\"{{ asset('Nouveau dossier (2)/4.jpg')}}\" alt=\"Image 2\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/13.jpg')}}\" alt=\"Image 3\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/14.jpg')}}\" alt=\"Image 4\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/5.jpg')}}\" alt=\"Image 3\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/6.jpg')}}\" alt=\"Image 4\">\n         <img src=\"{{ asset('Nouveau dossier (2)/11.jpg')}}\" alt=\"Image 4\">\n     </div>\n </body>\n \n"
+                },
+                {
+                    "date": 1698484758385,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,8 +53,11 @@\n         <img src=\"{{ asset('Nouveau dossier (2)/4.jpg')}}\" alt=\"Image 2\">\n         <img src=\"{{ asset('Nouveau dossier (2)/5.jpg')}}\" alt=\"Image 3\">\n         <img src=\"{{ asset('Nouveau dossier (2)/6.jpg')}}\" alt=\"Image 4\">\n         <img src=\"{{ asset('Nouveau dossier (2)/11.jpg')}}\" alt=\"Image 4\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/11.jpg')}}\" alt=\"Image 4\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/11.jpg')}}\" alt=\"Image 4\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/11.jpg')}}\" alt=\"Image 4\">\n     </div>\n </body>\n \n </html>\n"
+                },
+                {
+                    "date": 1698484763605,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,11 +53,11 @@\n         <img src=\"{{ asset('Nouveau dossier (2)/4.jpg')}}\" alt=\"Image 2\">\n         <img src=\"{{ asset('Nouveau dossier (2)/5.jpg')}}\" alt=\"Image 3\">\n         <img src=\"{{ asset('Nouveau dossier (2)/6.jpg')}}\" alt=\"Image 4\">\n         <img src=\"{{ asset('Nouveau dossier (2)/11.jpg')}}\" alt=\"Image 4\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/17.jpg')}}\" alt=\"Image 4\">\n         <img src=\"{{ asset('Nouveau dossier (2)/11.jpg')}}\" alt=\"Image 4\">\n         <img src=\"{{ asset('Nouveau dossier (2)/11.jpg')}}\" alt=\"Image 4\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/11.jpg')}}\" alt=\"Image 4\">\n     </div>\n </body>\n \n </html>\n"
+                },
+                {
+                    "date": 1698484773603,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,10 +54,10 @@\n         <img src=\"{{ asset('Nouveau dossier (2)/5.jpg')}}\" alt=\"Image 3\">\n         <img src=\"{{ asset('Nouveau dossier (2)/6.jpg')}}\" alt=\"Image 4\">\n         <img src=\"{{ asset('Nouveau dossier (2)/11.jpg')}}\" alt=\"Image 4\">\n         <img src=\"{{ asset('Nouveau dossier (2)/17.jpg')}}\" alt=\"Image 4\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/11.jpg')}}\" alt=\"Image 4\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/11.jpg')}}\" alt=\"Image 4\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/16.jpg')}}\" alt=\"Image 4\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/1.jpg')}}\" alt=\"Image 4\">\n     </div>\n </body>\n \n </html>\n"
+                },
+                {
+                    "date": 1698484786785,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n         <img src=\"{{ asset('Nouveau dossier (2)/6.jpg')}}\" alt=\"Image 4\">\n         <img src=\"{{ asset('Nouveau dossier (2)/11.jpg')}}\" alt=\"Image 4\">\n         <img src=\"{{ asset('Nouveau dossier (2)/17.jpg')}}\" alt=\"Image 4\">\n         <img src=\"{{ asset('Nouveau dossier (2)/16.jpg')}}\" alt=\"Image 4\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/1.jpg')}}\" alt=\"Image 4\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/14.jpg')}}\" alt=\"Image 4\">\n     </div>\n </body>\n \n </html>\n"
+                },
+                {
+                    "date": 1698484886202,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,8 +56,9 @@\n         <img src=\"{{ asset('Nouveau dossier (2)/11.jpg')}}\" alt=\"Image 4\">\n         <img src=\"{{ asset('Nouveau dossier (2)/17.jpg')}}\" alt=\"Image 4\">\n         <img src=\"{{ asset('Nouveau dossier (2)/16.jpg')}}\" alt=\"Image 4\">\n         <img src=\"{{ asset('Nouveau dossier (2)/14.jpg')}}\" alt=\"Image 4\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/14.jpg')}}\" alt=\"Image 4\">\n     </div>\n </body>\n \n </html>\n"
+                },
+                {
+                    "date": 1698484891664,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n         <img src=\"{{ asset('Nouveau dossier (2)/11.jpg')}}\" alt=\"Image 4\">\n         <img src=\"{{ asset('Nouveau dossier (2)/17.jpg')}}\" alt=\"Image 4\">\n         <img src=\"{{ asset('Nouveau dossier (2)/16.jpg')}}\" alt=\"Image 4\">\n         <img src=\"{{ asset('Nouveau dossier (2)/14.jpg')}}\" alt=\"Image 4\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/14.jpg')}}\" alt=\"Image 4\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/1.jpg')}}\" alt=\"Image 4\">\n     </div>\n </body>\n \n </html>\n"
+                },
+                {
+                    "date": 1698484947757,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,8 +28,9 @@\n                 <li>SUPRISE</li>\n                 <li>EMBALLAGE</li>\n                 <li>BAPTEME</li>\n                 <li>ENTERREMENT</li>\n+                <li>ENTERREMENT</li>\n             </i>\n             </ul>\n             </div>\n             <center><p><i><b>NOUS SOMMES DISPONIBLE POUR EMBELLIR TOUT VOS EVENEMENTS</b></i></p></center>\n@@ -56,9 +57,9 @@\n         <img src=\"{{ asset('Nouveau dossier (2)/11.jpg')}}\" alt=\"Image 4\">\n         <img src=\"{{ asset('Nouveau dossier (2)/17.jpg')}}\" alt=\"Image 4\">\n         <img src=\"{{ asset('Nouveau dossier (2)/16.jpg')}}\" alt=\"Image 4\">\n         <img src=\"{{ asset('Nouveau dossier (2)/14.jpg')}}\" alt=\"Image 4\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/1.jpg')}}\" alt=\"Image 4\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/15.jpg')}}\" alt=\"Image 4\">\n     </div>\n </body>\n \n </html>\n"
+                },
+                {
+                    "date": 1698484957169,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n                 <li>SUPRISE</li>\n                 <li>EMBALLAGE</li>\n                 <li>BAPTEME</li>\n                 <li>ENTERREMENT</li>\n-                <li>ENTERREMENT</li>\n+                <li>RECEPTION</li>\n             </i>\n             </ul>\n             </div>\n             <center><p><i><b>NOUS SOMMES DISPONIBLE POUR EMBELLIR TOUT VOS EVENEMENTS</b></i></p></center>\n"
+                },
+                {
+                    "date": 1698484994146,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,9 +65,8 @@\n </html>\n <style>\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n \n-\n *{\n     margin: 0;\n     box-sizing: border-box;\n }\n"
+                },
+                {
+                    "date": 1698485021669,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -87,9 +87,9 @@\n ul i{\n     list-style: none;\n     float: right;\n     display: flex;\n-    margin-top: -150px;\n+    margin-top: -130px;\n \n }\n p{\n     margin-top: -40px;\n"
+                },
+                {
+                    "date": 1698485037435,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -87,9 +87,9 @@\n ul i{\n     list-style: none;\n     float: right;\n     display: flex;\n-    margin-top: -130px;\n+    margin-top: -100px;\n \n }\n p{\n     margin-top: -40px;\n"
+                },
+                {
+                    "date": 1698485051913,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -87,9 +87,9 @@\n ul i{\n     list-style: none;\n     float: right;\n     display: flex;\n-    margin-top: -100px;\n+    margin-top: -150px;\n \n }\n p{\n     margin-top: -40px;\n"
+                },
+                {
+                    "date": 1698485063537,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -85,9 +85,9 @@\n     padding:0px;\n }\n ul i{\n     list-style: none;\n-    float: right;\n+   \n     display: flex;\n     margin-top: -150px;\n \n }\n"
+                },
+                {
+                    "date": 1698485073281,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -85,9 +85,9 @@\n     padding:0px;\n }\n ul i{\n     list-style: none;\n-   \n+   float: \n     display: flex;\n     margin-top: -150px;\n \n }\n"
+                },
+                {
+                    "date": 1698485114263,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -85,9 +85,9 @@\n     padding:0px;\n }\n ul i{\n     list-style: none;\n-   float: \n+   float: none\n     display: flex;\n     margin-top: -150px;\n \n }\n"
+                },
+                {
+                    "date": 1698485153948,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -85,9 +85,9 @@\n     padding:0px;\n }\n ul i{\n     list-style: none;\n-   float: none\n+   float:lef;\n     display: flex;\n     margin-top: -150px;\n \n }\n"
+                },
+                {
+                    "date": 1698485266327,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -85,9 +85,9 @@\n     padding:0px;\n }\n ul i{\n     list-style: none;\n-   float:lef;\n+   float:rig;\n     display: flex;\n     margin-top: -150px;\n \n }\n"
+                },
+                {
+                    "date": 1698485328354,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -85,9 +85,9 @@\n     padding:0px;\n }\n ul i{\n     list-style: none;\n-   float:rig;\n+   float:in;\n     display: flex;\n     margin-top: -150px;\n \n }\n"
+                },
+                {
+                    "date": 1698485333527,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -85,9 +85,9 @@\n     padding:0px;\n }\n ul i{\n     list-style: none;\n-   float:in;\n+   float:inherit;\n     display: flex;\n     margin-top: -150px;\n \n }\n"
+                },
+                {
+                    "date": 1698485356170,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -85,9 +85,9 @@\n     padding:0px;\n }\n ul i{\n     list-style: none;\n-   float:inherit;\n+   float:ini;\n     display: flex;\n     margin-top: -150px;\n \n }\n"
+                },
+                {
+                    "date": 1698485375374,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -85,9 +85,9 @@\n     padding:0px;\n }\n ul i{\n     list-style: none;\n-   float:ini;\n+   float:inli;\n     display: flex;\n     margin-top: -150px;\n \n }\n"
+                },
+                {
+                    "date": 1698485398529,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -85,9 +85,9 @@\n     padding:0px;\n }\n ul i{\n     list-style: none;\n-   float:inli;\n+   float:inline-;\n     display: flex;\n     margin-top: -150px;\n \n }\n"
+                },
+                {
+                    "date": 1698485404401,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -85,9 +85,9 @@\n     padding:0px;\n }\n ul i{\n     list-style: none;\n-   float:inline-;\n+   float:inline-start;\n     display: flex;\n     margin-top: -150px;\n \n }\n"
+                },
+                {
+                    "date": 1698485417902,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -85,9 +85,9 @@\n     padding:0px;\n }\n ul i{\n     list-style: none;\n-   float:inline-start;\n+   float:un;\n     display: flex;\n     margin-top: -150px;\n \n }\n"
+                },
+                {
+                    "date": 1698485447009,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -85,9 +85,9 @@\n     padding:0px;\n }\n ul i{\n     list-style: none;\n-   float:un;\n+   float:r;\n     display: flex;\n     margin-top: -150px;\n \n }\n"
+                },
+                {
+                    "date": 1698485462017,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -85,9 +85,9 @@\n     padding:0px;\n }\n ul i{\n     list-style: none;\n-   float:r;\n+   float:right;\n     display: flex;\n     margin-top: -150px;\n \n }\n@@ -100,9 +100,9 @@\n     text-transform: uppercase ;\n    border: 1px transparent;\n    background-color: rgb(177, 228, 177);\n    border-radius: 10px;\n-    margin: 25px;\n+   \n     font-weight: bold;\n }\n .principale{\n     max-width: 114rem  ;\n"
+                },
+                {
+                    "date": 1698485510490,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -100,9 +100,9 @@\n     text-transform: uppercase ;\n    border: 1px transparent;\n    background-color: rgb(177, 228, 177);\n    border-radius: 10px;\n-   \n+    margin: 15px;\n     font-weight: bold;\n }\n .principale{\n     max-width: 114rem  ;\n"
+                },
+                {
+                    "date": 1698485673511,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,8 +29,9 @@\n                 <li>EMBALLAGE</li>\n                 <li>BAPTEME</li>\n                 <li>ENTERREMENT</li>\n                 <li>RECEPTION</li>\n+                <li>RECEPTION</li>\n             </i>\n             </ul>\n             </div>\n             <center><p><i><b>NOUS SOMMES DISPONIBLE POUR EMBELLIR TOUT VOS EVENEMENTS</b></i></p></center>\n"
+                },
+                {
+                    "date": 1698485679232,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,178 @@\n+<!DOCTYPE html>\n+<html lang=\"en\">\n+<head>\n+    <meta charset=\"UTF-8\">\n+    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n+    <title>Document</title>\n+    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9\" crossorigin=\"anonymous\">\n+    <link rel=\"stylesheet\" href=\"\">\n+</head>\n+\n+<body>\n+    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm\" crossorigin=\"anonymous\"></script>\n+    <script src=\"https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js\" integrity=\"sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r\" crossorigin=\"anonymous\"></script>\n+    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js\" integrity=\"sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa\" crossorigin=\"anonymous\"></script>\n+    <header class=\"header\">\n+\n+        <div>\n+            <div>\n+                <img src=\"{{ asset('Nouveau dossier (2)/18.jpg')}}\" alt=\"LogoDgi\" class=\"logo\">\n+            </div>\n+            <ul>\n+                <i>\n+                <li>ANNIVERSAIRE</li>\n+                <li>MARIAGE</li>\n+                <li>DOTE</li>\n+                <li>DINER</li>\n+                <li>SUPRISE</li>\n+                <li>EMBALLAGE</li>\n+                <li>BAPTEME</li>\n+                <li>ENTERREMENT</li>\n+                <li>RECEPTION</li>\n+                <li>INA</li>\n+            </i>\n+            </ul>\n+            </div>\n+            <center><p><i><b>NOUS SOMMES DISPONIBLE POUR EMBELLIR TOUT VOS EVENEMENTS</b></i></p></center>\n+        </header>\n+    <div class=\"container\">\n+        <div class=\"row\">\n+            <div class=\"col\">\n+            <h1 class=\"scrolling-text\"><i>BIENVENUE A CHRIST DECOR </i></h1>\n+            </div>\n+        </div>\n+    </div>\n+    <div class=\"container\">\n+        <div class=\"row\">\n+            <div class=\"col\">\n+                <center><h1><i> NOUS ASSURONS L'EMBELLISSEMENT DE VOS EVENEMENTS </i></h1></center>\n+            </div>\n+        </div>\n+    </div>\n+    <div class=\"image-container\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/3.jpg')}}\" alt=\"Image 1\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/4.jpg')}}\" alt=\"Image 2\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/5.jpg')}}\" alt=\"Image 3\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/6.jpg')}}\" alt=\"Image 4\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/11.jpg')}}\" alt=\"Image 4\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/17.jpg')}}\" alt=\"Image 4\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/16.jpg')}}\" alt=\"Image 4\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/14.jpg')}}\" alt=\"Image 4\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/15.jpg')}}\" alt=\"Image 4\">\n+    </div>\n+</body>\n+\n+</html>\n+<style>\n+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n+\n+*{\n+    margin: 0;\n+    box-sizing: border-box;\n+}\n+body{\n+   background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n+    height: 110vh;\n+    background-size: cover;\n+    background-position: center;\n+    font-family: 'Cormorant Garamond', serif;\n+font-family: 'EB Garamond', serif;\n+font-family: 'Roboto', sans-serif;\n+\n+}\n+.header{\n+    background-color: #baf1d3;\n+    padding:0px;\n+}\n+ul i{\n+    list-style: none;\n+   float:right;\n+    display: flex;\n+    margin-top: -150px;\n+\n+}\n+p{\n+    margin-top: -40px;\n+}\n+ul i li {\n+    text-decoration:none ;\n+    color: #000;\n+    text-transform: uppercase ;\n+   border: 1px transparent;\n+   background-color: rgb(177, 228, 177);\n+   border-radius: 10px;\n+    margin: 15px;\n+    font-weight: bold;\n+}\n+.principale{\n+    max-width: 114rem  ;\n+    margin: 0 auto;\n+}\n+@media (max-width:733px) {\n+    ul li a{\n+flex-direction: column;\n+align-items: center;\n+margin: 0;\n+left: 20%;\n+    }\n+}\n+.titre h1{\n+    color: #fff;\n+    font-weight: bold;\n+}\n+.logo{\n+    width: 200px;\n+    height: 180px;\n+\n+}\n+\n+@media all and (max-width: 290px) {\n+    .titre {\n+        top: 40%;\n+    }\n+\n+    .button {\n+        top: 50%;\n+        flex-direction: column;\n+        align-items: center;\n+    }\n+\n+    .button a {\n+        margin: 10px 0;\n+    }\n+}\n+.image-container{\n+    text-align: center;\n+}\n+.image-container img{\n+    display: inline-block;\n+    margin: 10px;\n+}\n+/* CSS */\n+.scrolling-text {\n+    white-space: nowrap;\n+    overflow: hidden;\n+    animation: scroll-text 20s linear infinite;\n+}\n+\n+@keyframes scroll-text {\n+    0% {\n+        transform: translateX(100%);\n+    }\n+    100% {\n+        transform: translateX(-100%);\n+    }\n+}\n+.image-container {\n+    margin-top: 50px;\n+    margin-block: flex;\n+}\n+\n+.image-container img {\n+    width: 280px;\n+   height: 300px;\n+\n+}\n+\n+</style>\n"
+                },
+                {
+                    "date": 1698485708258,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n                 <li>EMBALLAGE</li>\n                 <li>BAPTEME</li>\n                 <li>ENTERREMENT</li>\n                 <li>RECEPTION</li>\n-                <li>INA</li>\n+                <li>INAUGURATION</li>\n             </i>\n             </ul>\n             </div>\n             <center><p><i><b>NOUS SOMMES DISPONIBLE POUR EMBELLIR TOUT VOS EVENEMENTS</b></i></p></center>\n@@ -101,187 +101,9 @@\n     text-transform: uppercase ;\n    border: 1px transparent;\n    background-color: rgb(177, 228, 177);\n    border-radius: 10px;\n-    margin: 15px;\n-    font-weight: bold;\n-}\n-.principale{\n-    max-width: 114rem  ;\n-    margin: 0 auto;\n-}\n-@media (max-width:733px) {\n-    ul li a{\n-flex-direction: column;\n-align-items: center;\n-margin: 0;\n-left: 20%;\n-    }\n-}\n-.titre h1{\n-    color: #fff;\n-    font-weight: bold;\n-}\n-.logo{\n-    width: 200px;\n-    height: 180px;\n-\n-}\n-\n-@media all and (max-width: 290px) {\n-    .titre {\n-        top: 40%;\n-    }\n-\n-    .button {\n-        top: 50%;\n-        flex-direction: column;\n-        align-items: center;\n-    }\n-\n-    .button a {\n-        margin: 10px 0;\n-    }\n-}\n-.image-container{\n-    text-align: center;\n-}\n-.image-container img{\n-    display: inline-block;\n     margin: 10px;\n-}\n-/* CSS */\n-.scrolling-text {\n-    white-space: nowrap;\n-    overflow: hidden;\n-    animation: scroll-text 20s linear infinite;\n-}\n-\n-@keyframes scroll-text {\n-    0% {\n-        transform: translateX(100%);\n-    }\n-    100% {\n-        transform: translateX(-100%);\n-    }\n-}\n-.image-container {\n-    margin-top: 50px;\n-    margin-block: flex;\n-}\n-\n-.image-container img {\n-    width: 280px;\n-   height: 300px;\n-\n-}\n-\n-</style>\n-<!DOCTYPE html>\n-<html lang=\"en\">\n-<head>\n-    <meta charset=\"UTF-8\">\n-    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n-    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n-    <title>Document</title>\n-    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9\" crossorigin=\"anonymous\">\n-    <link rel=\"stylesheet\" href=\"\">\n-</head>\n-\n-<body>\n-    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm\" crossorigin=\"anonymous\"></script>\n-    <script src=\"https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js\" integrity=\"sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r\" crossorigin=\"anonymous\"></script>\n-    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js\" integrity=\"sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa\" crossorigin=\"anonymous\"></script>\n-    <header class=\"header\">\n-\n-        <div>\n-            <div>\n-                <img src=\"{{ asset('Nouveau dossier (2)/18.jpg')}}\" alt=\"LogoDgi\" class=\"logo\">\n-            </div>\n-            <ul>\n-                <i>\n-                <li>ANNIVERSAIRE</li>\n-                <li>MARIAGE</li>\n-                <li>DOTE</li>\n-                <li>DINER</li>\n-                <li>SUPRISE</li>\n-                <li>EMBALLAGE</li>\n-                <li>BAPTEME</li>\n-                <li>ENTERREMENT</li>\n-                <li>RECEPTION</li>\n-                <li>RECEPTION</li>\n-            </i>\n-            </ul>\n-            </div>\n-            <center><p><i><b>NOUS SOMMES DISPONIBLE POUR EMBELLIR TOUT VOS EVENEMENTS</b></i></p></center>\n-        </header>\n-    <div class=\"container\">\n-        <div class=\"row\">\n-            <div class=\"col\">\n-            <h1 class=\"scrolling-text\"><i>BIENVENUE A CHRIST DECOR </i></h1>\n-            </div>\n-        </div>\n-    </div>\n-    <div class=\"container\">\n-        <div class=\"row\">\n-            <div class=\"col\">\n-                <center><h1><i> NOUS ASSURONS L'EMBELLISSEMENT DE VOS EVENEMENTS </i></h1></center>\n-            </div>\n-        </div>\n-    </div>\n-    <div class=\"image-container\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/3.jpg')}}\" alt=\"Image 1\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/4.jpg')}}\" alt=\"Image 2\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/5.jpg')}}\" alt=\"Image 3\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/6.jpg')}}\" alt=\"Image 4\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/11.jpg')}}\" alt=\"Image 4\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/17.jpg')}}\" alt=\"Image 4\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/16.jpg')}}\" alt=\"Image 4\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/14.jpg')}}\" alt=\"Image 4\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/15.jpg')}}\" alt=\"Image 4\">\n-    </div>\n-</body>\n-\n-</html>\n-<style>\n-    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n-\n-*{\n-    margin: 0;\n-    box-sizing: border-box;\n-}\n-body{\n-   background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n-    height: 110vh;\n-    background-size: cover;\n-    background-position: center;\n-    font-family: 'Cormorant Garamond', serif;\n-font-family: 'EB Garamond', serif;\n-font-family: 'Roboto', sans-serif;\n-\n-}\n-.header{\n-    background-color: #baf1d3;\n-    padding:0px;\n-}\n-ul i{\n-    list-style: none;\n-   float:right;\n-    display: flex;\n-    margin-top: -150px;\n-\n-}\n-p{\n-    margin-top: -40px;\n-}\n-ul i li {\n-    text-decoration:none ;\n-    color: #000;\n-    text-transform: uppercase ;\n-   border: 1px transparent;\n-   background-color: rgb(177, 228, 177);\n-   border-radius: 10px;\n-    margin: 15px;\n     font-weight: bold;\n }\n .principale{\n     max-width: 114rem  ;\n"
+                },
+                {
+                    "date": 1698485749926,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n                 <li>ANNIVERSAIRE</li>\n                 <li>MARIAGE</li>\n                 <li>DOTE</li>\n                 <li>DINER</li>\n-                <li>SUPRISE</li>\n+                <li>SUPRISE</li>BR\n                 <li>EMBALLAGE</li>\n                 <li>BAPTEME</li>\n                 <li>ENTERREMENT</li>\n                 <li>RECEPTION</li>\n"
+                },
+                {
+                    "date": 1698485756015,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n                 <li>ANNIVERSAIRE</li>\n                 <li>MARIAGE</li>\n                 <li>DOTE</li>\n                 <li>DINER</li>\n-                <li>SUPRISE</li>BR\n+                <li>SUPRISE</li><</BR>\n                 <li>EMBALLAGE</li>\n                 <li>BAPTEME</li>\n                 <li>ENTERREMENT</li>\n                 <li>RECEPTION</li>\n"
+                },
+                {
+                    "date": 1698485765112,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n                 <li>ANNIVERSAIRE</li>\n                 <li>MARIAGE</li>\n                 <li>DOTE</li>\n                 <li>DINER</li>\n-                <li>SUPRISE</li><</BR>\n+                <li>SUPRISE</li> br\n                 <li>EMBALLAGE</li>\n                 <li>BAPTEME</li>\n                 <li>ENTERREMENT</li>\n                 <li>RECEPTION</li>\n"
+                },
+                {
+                    "date": 1698485781590,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n                 <li>ANNIVERSAIRE</li>\n                 <li>MARIAGE</li>\n                 <li>DOTE</li>\n                 <li>DINER</li>\n-                <li>SUPRISE</li> br\n+                <li>SUPRISE</li> \n                 <li>EMBALLAGE</li>\n                 <li>BAPTEME</li>\n                 <li>ENTERREMENT</li>\n                 <li>RECEPTION</li>\n"
+                },
+                {
+                    "date": 1698485833640,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n                 <li>ANNIVERSAIRE</li>\n                 <li>MARIAGE</li>\n                 <li>DOTE</li>\n                 <li>DINER</li>\n-                <li>SUPRISE</li> \n+                <li>SUPRISE</li>\n                 <li>EMBALLAGE</li>\n                 <li>BAPTEME</li>\n                 <li>ENTERREMENT</li>\n                 <li>RECEPTION</li>\n@@ -122,9 +122,9 @@\n     font-weight: bold;\n }\n .logo{\n     width: 200px;\n-    height: 180px;\n+    height: 10px;\n \n }\n \n @media all and (max-width: 290px) {\n"
+                },
+                {
+                    "date": 1698485844499,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -122,9 +122,9 @@\n     font-weight: bold;\n }\n .logo{\n     width: 200px;\n-    height: 10px;\n+    height: 100px;\n \n }\n \n @media all and (max-width: 290px) {\n"
+                },
+                {
+                    "date": 1698485868687,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -122,10 +122,10 @@\n     font-weight: bold;\n }\n .logo{\n     width: 200px;\n-    height: 100px;\n \n+\n }\n \n @media all and (max-width: 290px) {\n     .titre {\n"
+                },
+                {
+                    "date": 1698486015622,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -120,14 +120,10 @@\n .titre h1{\n     color: #fff;\n     font-weight: bold;\n }\n-.logo{\n-    width: 200px;\n \n \n-}\n-\n @media all and (max-width: 290px) {\n     .titre {\n         top: 40%;\n     }\n"
+                },
+                {
+                    "date": 1698486031576,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -120,10 +120,14 @@\n .titre h1{\n     color: #fff;\n     font-weight: bold;\n }\n+.logo{\n+    width: 200px;\n \n \n+}\n+\n @media all and (max-width: 290px) {\n     .titre {\n         top: 40%;\n     }\n"
+                },
+                {
+                    "date": 1698486062250,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n     <header class=\"header\">\n \n         <div>\n             <div>\n-                <img src=\"{{ asset('Nouveau dossier (2)/18.jpg')}}\" alt=\"LogoDgi\" class=\"logo\">\n+                <img src=\"{{ asset('Nouveau dossier (2)/18.jpg')}}\" alt=\"LogoDgi\" >\n             </div>\n             <ul>\n                 <i>\n                 <li>ANNIVERSAIRE</li>\n"
+                },
+                {
+                    "date": 1698486071292,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n     <header class=\"header\">\n \n         <div>\n             <div>\n-                <img src=\"{{ asset('Nouveau dossier (2)/18.jpg')}}\" alt=\"LogoDgi\" >\n+                <img src=\"{{ asset('Nouveau dossier (2)/18.jpg')}}\" alt=\"LogoDgi\" class=\"logo\">\n             </div>\n             <ul>\n                 <i>\n                 <li>ANNIVERSAIRE</li>\n"
+                },
+                {
+                    "date": 1698486179170,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,12 +66,9 @@\n </html>\n <style>\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n \n-*{\n-    margin: 0;\n-    box-sizing: border-box;\n-}\n+\n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n     height: 110vh;\n     background-size: cover;\n"
+                },
+                {
+                    "date": 1698486211177,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,9 +66,12 @@\n </html>\n <style>\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n \n-\n+*{\n+    margin: 0;\n+    box-sizing: border-box;\n+}\n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n     height: 110vh;\n     background-size: cover;\n"
+                },
+                {
+                    "date": 1698486220388,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,9 +68,9 @@\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n \n *{\n     margin: 0;\n-    box-sizing: border-box;\n+ \n }\n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n     height: 110vh;\n"
+                },
+                {
+                    "date": 1698486220399,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,9 +68,9 @@\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n \n *{\n     margin: 0;\n- \n+\n }\n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n     height: 110vh;\n"
+                },
+                {
+                    "date": 1698486232731,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,9 +68,9 @@\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n \n *{\n     margin: 0;\n-\n+ \n }\n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n     height: 110vh;\n"
+                },
+                {
+                    "date": 1698486240045,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,9 +68,9 @@\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n \n *{\n     margin: 0;\n- \n+    box-sizing: border-box;\n }\n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n     height: 110vh;\n@@ -122,10 +122,10 @@\n     font-weight: bold;\n }\n .logo{\n     width: 200px;\n+   \n \n-\n }\n \n @media all and (max-width: 290px) {\n     .titre {\n"
+                },
+                {
+                    "date": 1698486270316,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -122,9 +122,9 @@\n     font-weight: bold;\n }\n .logo{\n     width: 200px;\n-   \n+    height: 100px;\n \n }\n \n @media all and (max-width: 290px) {\n"
+                },
+                {
+                    "date": 1698486280707,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,9 +67,9 @@\n <style>\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n \n *{\n-    margin: 0;\n+    \n     box-sizing: border-box;\n }\n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n"
+                },
+                {
+                    "date": 1698486315170,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,9 +67,9 @@\n <style>\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n \n *{\n-    \n+    margin: 0;\n     box-sizing: border-box;\n }\n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n"
+                },
+                {
+                    "date": 1698486325940,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -122,9 +122,9 @@\n     font-weight: bold;\n }\n .logo{\n     width: 200px;\n-    height: 100px;\n+    height: 10px;\n \n }\n \n @media all and (max-width: 290px) {\n"
+                },
+                {
+                    "date": 1698486335164,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n                 <li>ANNIVERSAIRE</li>\n                 <li>MARIAGE</li>\n                 <li>DOTE</li>\n                 <li>DINER</li>\n-                <li>SUPRISE</li>\n+                <li>SUPRISE</li> <br>\n                 <li>EMBALLAGE</li>\n                 <li>BAPTEME</li>\n                 <li>ENTERREMENT</li>\n                 <li>RECEPTION</li>\n@@ -122,9 +122,9 @@\n     font-weight: bold;\n }\n .logo{\n     width: 200px;\n-    height: 10px;\n+    height: 180px;\n \n }\n \n @media all and (max-width: 290px) {\n"
+                },
+                {
+                    "date": 1698486348038,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n                 <li>ANNIVERSAIRE</li>\n                 <li>MARIAGE</li>\n                 <li>DOTE</li>\n                 <li>DINER</li>\n-                <li>SUPRISE</li> <br>\n+                <li>SUPRISE</li>\n                 <li>EMBALLAGE</li>\n                 <li>BAPTEME</li>\n                 <li>ENTERREMENT</li>\n                 <li>RECEPTION</li>\n"
+                },
+                {
+                    "date": 1698486372433,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,12 +66,9 @@\n </html>\n <style>\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n \n-*{\n-    margin: 0;\n-    box-sizing: border-box;\n-}\n+\n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n     height: 110vh;\n     background-size: cover;\n"
+                },
+                {
+                    "date": 1698486420046,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,9 +98,9 @@\n     text-transform: uppercase ;\n    border: 1px transparent;\n    background-color: rgb(177, 228, 177);\n    border-radius: 10px;\n-    margin: 10px;\n+    margin: px;\n     font-weight: bold;\n }\n .principale{\n     max-width: 114rem  ;\n"
+                },
+                {
+                    "date": 1698486425621,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,9 +98,9 @@\n     text-transform: uppercase ;\n    border: 1px transparent;\n    background-color: rgb(177, 228, 177);\n    border-radius: 10px;\n-    margin: px;\n+    margin: 8px;\n     font-weight: bold;\n }\n .principale{\n     max-width: 114rem  ;\n"
+                },
+                {
+                    "date": 1698486446364,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,9 +98,9 @@\n     text-transform: uppercase ;\n    border: 1px transparent;\n    background-color: rgb(177, 228, 177);\n    border-radius: 10px;\n-    margin: 8px;\n+    margin: px;\n     font-weight: bold;\n }\n .principale{\n     max-width: 114rem  ;\n"
+                },
+                {
+                    "date": 1698486484626,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,9 +66,8 @@\n </html>\n <style>\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n \n-\n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n     height: 110vh;\n     background-size: cover;\n@@ -98,9 +97,9 @@\n     text-transform: uppercase ;\n    border: 1px transparent;\n    background-color: rgb(177, 228, 177);\n    border-radius: 10px;\n-    margin: px;\n+    margin: 9px;\n     font-weight: bold;\n }\n .principale{\n     max-width: 114rem  ;\n"
+                },
+                {
+                    "date": 1698486640294,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,9 +65,12 @@\n \n </html>\n <style>\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n-\n+    *{\n+    margin: 0;\n+    box-sizing: border-box;\n+}\n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n     height: 110vh;\n     background-size: cover;\n"
+                },
+                {
+                    "date": 1698486649581,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,9 +66,9 @@\n </html>\n <style>\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n     *{\n-    margin: 0;\n+    margin: 10;\n     box-sizing: border-box;\n }\n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n"
+                },
+                {
+                    "date": 1698486657287,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,9 +66,9 @@\n </html>\n <style>\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n     *{\n-    margin: 10;\n+    margin: 10%;\n     box-sizing: border-box;\n }\n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n"
+                },
+                {
+                    "date": 1698486679433,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,9 +66,9 @@\n </html>\n <style>\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n     *{\n-    margin: 10%;\n+    margin: %;\n     box-sizing: border-box;\n }\n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n"
+                },
+                {
+                    "date": 1698486712282,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,9 +66,9 @@\n </html>\n <style>\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n     *{\n-    margin: %;\n+    margin: 1%;\n     box-sizing: border-box;\n }\n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n"
+                },
+                {
+                    "date": 1698486728397,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,9 +66,9 @@\n </html>\n <style>\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n     *{\n-    margin: 1%;\n+    margin: 0%;\n     box-sizing: border-box;\n }\n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n"
+                },
+                {
+                    "date": 1698486744697,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,10 +67,10 @@\n <style>\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n     *{\n     margin: 0%;\n-    box-sizing: border-box;\n-}\n+    box-sizing: border-box\n+};\n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n     height: 110vh;\n     background-size: cover;\n"
+                },
+                {
+                    "date": 1698486757518,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,10 +67,10 @@\n <style>\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n     *{\n     margin: 0%;\n-    box-sizing: border-box\n-};\n+    BOX;\n+}\n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n     height: 110vh;\n     background-size: cover;\n"
+                },
+                {
+                    "date": 1698486763950,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,9 +67,9 @@\n <style>\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n     *{\n     margin: 0%;\n-    BOX;\n+    box-sizing: border-box;\n }\n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n     height: 110vh;\n"
+                },
+                {
+                    "date": 1698486769724,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,9 +67,9 @@\n <style>\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n     *{\n     margin: 0%;\n-    box-sizing: border-box;\n+    ;\n }\n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n     height: 110vh;\n"
+                },
+                {
+                    "date": 1698486776913,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,9 +67,9 @@\n <style>\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n     *{\n     margin: 0%;\n-    ;\n+    box-sizing: ;\n }\n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n     height: 110vh;\n"
+                },
+                {
+                    "date": 1698486788560,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,9 +67,9 @@\n <style>\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n     *{\n     margin: 0%;\n-    box-sizing: ;\n+    box-sizing: no;\n }\n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n     height: 110vh;\n"
+                },
+                {
+                    "date": 1698486793727,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,9 +67,9 @@\n <style>\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n     *{\n     margin: 0%;\n-    box-sizing: no;\n+    box-sizing: '\\f0c9';\n }\n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n     height: 110vh;\n"
+                },
+                {
+                    "date": 1698486814560,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,9 +67,9 @@\n <style>\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n     *{\n     margin: 0%;\n-    box-sizing: '\\f0c9';\n+    box-sizing: border-box;\n }\n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n     height: 110vh;\n"
+                },
+                {
+                    "date": 1698486823347,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,9 +67,9 @@\n <style>\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n     *{\n     margin: 0%;\n-    box-sizing: border-box;\n+\n }\n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n     height: 110vh;\n"
+                },
+                {
+                    "date": 1698486842851,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,9 +67,9 @@\n <style>\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n     *{\n     margin: 0%;\n-\n+    box-sizing: border-box;\n }\n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n     height: 110vh;\n"
+                },
+                {
+                    "date": 1698486850286,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,12 +65,9 @@\n \n </html>\n <style>\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n-    *{\n-    margin: 0%;\n-    box-sizing: border-box;\n-}\n+\n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n     height: 110vh;\n     background-size: cover;\n"
+                },
+                {
+                    "date": 1698486873311,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,9 +65,12 @@\n \n </html>\n <style>\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n-\n+    *{\n+    margin: 0%;\n+    box-sizing: border-box;\n+}\n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n     height: 110vh;\n     background-size: cover;\n"
+                },
+                {
+                    "date": 1698486878666,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,9 +67,9 @@\n <style>\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n     *{\n     margin: 0%;\n-    box-sizing: border-box;\n+\n }\n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n     height: 110vh;\n"
+                },
+                {
+                    "date": 1698486884920,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,9 +66,9 @@\n </html>\n <style>\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n     *{\n-    margin: 0%;\n+    margin: 61%;\n \n }\n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n"
+                },
+                {
+                    "date": 1698486891066,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,9 +66,9 @@\n </html>\n <style>\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n     *{\n-    margin: 61%;\n+    margin: %;\n \n }\n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n"
+                },
+                {
+                    "date": 1698486898381,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,9 +66,9 @@\n </html>\n <style>\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n     *{\n-    margin: %;\n+    margin: -1%;\n \n }\n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n"
+                },
+                {
+                    "date": 1698486917739,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,10 +66,10 @@\n </html>\n <style>\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n     *{\n-    margin: -1%;\n-\n+    margin: 0%;\n+    box-sizing: border-box;\n }\n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n     height: 110vh;\n"
+                },
+                {
+                    "date": 1698486942643,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,12 +65,9 @@\n \n </html>\n <style>\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n-    *{\n-    margin: 0%;\n-    box-sizing: border-box;\n-}\n+  \n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n     height: 110vh;\n     background-size: cover;\n"
+                },
+                {
+                    "date": 1698486989424,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,9 +65,9 @@\n \n </html>\n <style>\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n-  \n+\n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n     height: 110vh;\n     background-size: cover;\n@@ -100,12 +100,9 @@\n    border-radius: 10px;\n     margin: 9px;\n     font-weight: bold;\n }\n-.principale{\n-    max-width: 114rem  ;\n-    margin: 0 auto;\n-}\n+\n @media (max-width:733px) {\n     ul li a{\n flex-direction: column;\n align-items: center;\n"
+                },
+                {
+                    "date": 1698487011481,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,9 +58,8 @@\n         <img src=\"{{ asset('Nouveau dossier (2)/11.jpg')}}\" alt=\"Image 4\">\n         <img src=\"{{ asset('Nouveau dossier (2)/17.jpg')}}\" alt=\"Image 4\">\n         <img src=\"{{ asset('Nouveau dossier (2)/16.jpg')}}\" alt=\"Image 4\">\n         <img src=\"{{ asset('Nouveau dossier (2)/14.jpg')}}\" alt=\"Image 4\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/15.jpg')}}\" alt=\"Image 4\">\n     </div>\n </body>\n \n </html>\n"
+                },
+                {
+                    "date": 1698487038024,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,13 +68,9 @@\n \n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n     height: 110vh;\n-    background-size: cover;\n-    background-position: center;\n-    font-family: 'Cormorant Garamond', serif;\n-font-family: 'EB Garamond', serif;\n-font-family: 'Roboto', sans-serif;\n+   \n \n }\n .header{\n     background-color: #baf1d3;\n"
+                },
+                {
+                    "date": 1698487070463,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,11 +67,11 @@\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n \n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n-    height: 110vh;\n-   \n+ \n \n+\n }\n .header{\n     background-color: #baf1d3;\n     padding:0px;\n"
+                },
+                {
+                    "date": 1698487152220,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,11 +67,8 @@\n     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n \n body{\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n- \n-\n-\n }\n .header{\n     background-color: #baf1d3;\n     padding:0px;\n"
+                },
+                {
+                    "date": 1698487158627,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,9 +70,9 @@\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n }\n .header{\n     background-color: #baf1d3;\n-    padding:0px;\n+\n }\n ul i{\n     list-style: none;\n    float:right;\n"
+                },
+                {
+                    "date": 1698487176277,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,9 +70,9 @@\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n }\n .header{\n     background-color: #baf1d3;\n-\n+    padding:0px;\n }\n ul i{\n     list-style: none;\n    float:right;\n"
+                },
+                {
+                    "date": 1698487181856,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,9 +70,9 @@\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n }\n .header{\n     background-color: #baf1d3;\n-    padding:0px;\n+    padding:100px;\n }\n ul i{\n     list-style: none;\n    float:right;\n"
+                },
+                {
+                    "date": 1698487202308,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,9 +70,9 @@\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n }\n .header{\n     background-color: #baf1d3;\n-    padding:100px;\n+    padding:px;\n }\n ul i{\n     list-style: none;\n    float:right;\n"
+                },
+                {
+                    "date": 1698487238702,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,9 +70,9 @@\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n }\n .header{\n     background-color: #baf1d3;\n-    padding:px;\n+    padding:5px;\n }\n ul i{\n     list-style: none;\n    float:right;\n"
+                },
+                {
+                    "date": 1698487260184,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,9 +70,9 @@\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n }\n .header{\n     background-color: #baf1d3;\n-    padding:5px;\n+    padding:1px;\n }\n ul i{\n     list-style: none;\n    float:right;\n"
+                },
+                {
+                    "date": 1698487274093,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,9 +70,8 @@\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n }\n .header{\n     background-color: #baf1d3;\n-    padding:1px;\n }\n ul i{\n     list-style: none;\n    float:right;\n"
+                },
+                {
+                    "date": 1698487295542,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,8 +70,9 @@\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n }\n .header{\n     background-color: #baf1d3;\n+    padding:1px;\n }\n ul i{\n     list-style: none;\n    float:right;\n"
+                },
+                {
+                    "date": 1698487304119,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,9 +70,9 @@\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n }\n .header{\n     background-color: #baf1d3;\n-    padding:1px;\n+    padding:px;\n }\n ul i{\n     list-style: none;\n    float:right;\n"
+                },
+                {
+                    "date": 1698487328946,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,9 +70,9 @@\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n }\n .header{\n     background-color: #baf1d3;\n-    padding:px;\n+    padding:0,px;\n }\n ul i{\n     list-style: none;\n    float:right;\n"
+                },
+                {
+                    "date": 1698487335148,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,9 +70,9 @@\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n }\n .header{\n     background-color: #baf1d3;\n-    padding:0,px;\n+    padding:0,005px;\n }\n ul i{\n     list-style: none;\n    float:right;\n"
+                },
+                {
+                    "date": 1698487352917,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,9 +70,9 @@\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n }\n .header{\n     background-color: #baf1d3;\n-    padding:0,005px;\n+\n }\n ul i{\n     list-style: none;\n    float:right;\n"
+                },
+                {
+                    "date": 1698487367759,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,17 +70,10 @@\n    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n }\n .header{\n     background-color: #baf1d3;\n-\n }\n-ul i{\n-    list-style: none;\n-   float:right;\n-    display: flex;\n-    margin-top: -150px;\n \n-}\n p{\n     margin-top: -40px;\n }\n ul i li {\n"
+                },
+                {
+                    "date": 1698487381476,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -71,9 +71,15 @@\n }\n .header{\n     background-color: #baf1d3;\n }\n+ul i{\n+    list-style: none;\n+   float:right;\n+    display: flex;\n+    margin-top: -150px;\n \n+}\n p{\n     margin-top: -40px;\n }\n ul i li {\n"
+                },
+                {
+                    "date": 1698487421941,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -106,10 +106,10 @@\n     font-weight: bold;\n }\n .logo{\n     width: 200px;\n-    height: 180px;\n \n+\n }\n \n @media all and (max-width: 290px) {\n     .titre {\n"
+                },
+                {
+                    "date": 1698487433785,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -106,10 +106,10 @@\n     font-weight: bold;\n }\n .logo{\n     width: 200px;\n+    height: 180px;\n \n-\n }\n \n @media all and (max-width: 290px) {\n     .titre {\n"
+                },
+                {
+                    "date": 1698487451354,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -104,9 +104,9 @@\n .titre h1{\n     color: #fff;\n     font-weight: bold;\n }\n-.logo{\n+logo{\n     width: 200px;\n     height: 180px;\n \n }\n"
+                },
+                {
+                    "date": 1698487463449,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -104,9 +104,9 @@\n .titre h1{\n     color: #fff;\n     font-weight: bold;\n }\n-logo{\n+.logo{\n     width: 200px;\n     height: 180px;\n \n }\n"
+                },
+                {
+                    "date": 1698487471292,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -107,9 +107,8 @@\n }\n .logo{\n     width: 200px;\n     height: 180px;\n-\n }\n \n @media all and (max-width: 290px) {\n     .titre {\n"
+                },
+                {
+                    "date": 1698487500275,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -129,9 +129,9 @@\n     text-align: center;\n }\n .image-container img{\n     display: inline-block;\n-    margin: 10px;\n+    margin: 100px;\n }\n /* CSS */\n .scrolling-text {\n     white-space: nowrap;\n"
+                },
+                {
+                    "date": 1698487521450,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -129,9 +129,9 @@\n     text-align: center;\n }\n .image-container img{\n     display: inline-block;\n-    margin: 100px;\n+    margin: px;\n }\n /* CSS */\n .scrolling-text {\n     white-space: nowrap;\n"
+                },
+                {
+                    "date": 1698487548024,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -129,9 +129,9 @@\n     text-align: center;\n }\n .image-container img{\n     display: inline-block;\n-    margin: px;\n+\n }\n /* CSS */\n .scrolling-text {\n     white-space: nowrap;\n"
+                },
+                {
+                    "date": 1698487568140,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -129,9 +129,8 @@\n     text-align: center;\n }\n .image-container img{\n     display: inline-block;\n-\n }\n /* CSS */\n .scrolling-text {\n     white-space: nowrap;\n"
+                },
+                {
+                    "date": 1698487576323,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -129,11 +129,9 @@\n     text-align: center;\n }\n .image-container img{\n     display: inline-block;\n-}\n-/* CSS */\n-.scrolling-text {\n+}.scrolling-text {\n     white-space: nowrap;\n     overflow: hidden;\n     animation: scroll-text 20s linear infinite;\n }\n"
+                },
+                {
+                    "date": 1698487608777,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -129,9 +129,10 @@\n     text-align: center;\n }\n .image-container img{\n     display: inline-block;\n-}.scrolling-text {\n+}\n+.scrolling-text {\n     white-space: nowrap;\n     overflow: hidden;\n     animation: scroll-text 20s linear infinite;\n }\n@@ -143,13 +144,10 @@\n     100% {\n         transform: translateX(-100%);\n     }\n }\n-.image-container {\n-    margin-top: 50px;\n-    margin-block: flex;\n-}\n \n+\n .image-container img {\n     width: 280px;\n    height: 300px;\n \n"
+                },
+                {
+                    "date": 1698487642705,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -144,10 +144,8 @@\n     100% {\n         transform: translateX(-100%);\n     }\n }\n-\n-\n .image-container img {\n     width: 280px;\n    height: 300px;\n \n"
+                },
+                {
+                    "date": 1698487926005,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,152 @@\n+<!DOCTYPE html>\n+<html lang=\"en\">\n+<head>\n+    <meta charset=\"UTF-8\">\n+    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n+    <title>Document</title>\n+    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9\" crossorigin=\"anonymous\">\n+    <link rel=\"stylesheet\" href=\"\">\n+</head>\n+\n+<body>\n+    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm\" crossorigin=\"anonymous\"></script>\n+    <script src=\"https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js\" integrity=\"sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r\" crossorigin=\"anonymous\"></script>\n+    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js\" integrity=\"sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa\" crossorigin=\"anonymous\"></script>\n+    <header class=\"header\">\n+\n+        <div>\n+            <div>\n+                <img src=\"{{ asset('Nouveau dossier (2)/18.jpg')}}\" alt=\"LogoDgi\" class=\"logo\">\n+            </div>\n+            <ul>\n+                <i>\n+                <li>ANNIVERSAIRE</li>\n+                <li>MARIAGE</li>\n+                <li>DOTE</li>\n+                <li>DINER</li>\n+                <li>SUPRISE</li>\n+                <li>EMBALLAGE</li>\n+                <li>BAPTEME</li>\n+                <li>ENTERREMENT</li>\n+                <li>RECEPTION</li>\n+                <li>INAUGURATION</li>\n+            </i>\n+            </ul>\n+            </div>\n+            <center><p><i><b>NOUS SOMMES DISPONIBLE POUR EMBELLIR TOUT VOS EVENEMENTS</b></i></p></center>\n+        </header>\n+    <div class=\"container\">\n+        <div class=\"row\">\n+            <div class=\"col\">\n+            <h1 class=\"scrolling-text\"><i>BIENVENUE A CHRIST DECOR </i></h1>\n+            </div>\n+        </div>\n+    </div>\n+    <div class=\"container\">\n+        <div class=\"row\">\n+            <div class=\"col\">\n+                <center><h1><i> NOUS ASSURONS L'EMBELLISSEMENT DE VOS EVENEMENTS </i></h1></center>\n+            </div>\n+        </div>\n+    </div>\n+    <div class=\"image-container\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/3.jpg')}}\" alt=\"Image 1\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/4.jpg')}}\" alt=\"Image 2\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/5.jpg')}}\" alt=\"Image 3\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/6.jpg')}}\" alt=\"Image 4\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/11.jpg')}}\" alt=\"Image 4\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/17.jpg')}}\" alt=\"Image 4\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/16.jpg')}}\" alt=\"Image 4\">\n+        <img src=\"{{ asset('Nouveau dossier (2)/14.jpg')}}\" alt=\"Image 4\">\n+    </div>\n+</body>\n+\n+</html>\n+<style>\n+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n+\n+body{\n+   background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n+}\n+.header{\n+    background-color: #baf1d3;\n+}\n+ul i{\n+    list-style: none;\n+   float:right;\n+    display: flex;\n+    margin-top: -150px;\n+\n+}\n+p{\n+    margin-top: -40px;\n+}\n+ul i li {\n+    text-decoration:none ;\n+    color: #000;\n+    text-transform: uppercase ;\n+   border: 1px transparent;\n+   background-color: rgb(177, 228, 177);\n+   border-radius: 10px;\n+    margin: 9px;\n+    font-weight: bold;\n+}\n+\n+@media (max-width:733px) {\n+    ul li a{\n+flex-direction: column;\n+align-items: center;\n+\n+    }\n+}\n+.titre h1{\n+    color: #fff;\n+    font-weight: bold;\n+}\n+.logo{\n+    width: 200px;\n+    height: 180px;\n+}\n+\n+@media all and (max-width: 290px) {\n+    .titre {\n+        top: 40%;\n+    }\n+\n+    .button {\n+        top: 50%;\n+        flex-direction: column;\n+        align-items: center;\n+    }\n+\n+    .button a {\n+        margin: 10px 0;\n+    }\n+}\n+.image-container{\n+    text-align: center;\n+}\n+.image-container img{\n+    display: inline-block;\n+}\n+.scrolling-text {\n+    white-space: nowrap;\n+    overflow: hidden;\n+    animation: scroll-text 20s linear infinite;\n+}\n+\n+@keyframes scroll-text {\n+    0% {\n+        transform: translateX(100%);\n+    }\n+    100% {\n+        transform: translateX(-100%);\n+    }\n+}\n+.image-container img {\n+    width: 280px;\n+   height: 300px;\n+}\n+\n+</style>\n"
+                },
+                {
+                    "date": 1698488047594,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,13 +93,9 @@\n     font-weight: bold;\n }\n \n @media (max-width:733px) {\n-    ul li a{\n-flex-direction: column;\n-align-items: center;\n \n-    }\n }\n .titre h1{\n     color: #fff;\n     font-weight: bold;\n@@ -149,158 +145,4 @@\n    height: 300px;\n }\n \n </style>\n-<!DOCTYPE html>\n-<html lang=\"en\">\n-<head>\n-    <meta charset=\"UTF-8\">\n-    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n-    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n-    <title>Document</title>\n-    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9\" crossorigin=\"anonymous\">\n-    <link rel=\"stylesheet\" href=\"\">\n-</head>\n-\n-<body>\n-    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm\" crossorigin=\"anonymous\"></script>\n-    <script src=\"https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js\" integrity=\"sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r\" crossorigin=\"anonymous\"></script>\n-    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js\" integrity=\"sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa\" crossorigin=\"anonymous\"></script>\n-    <header class=\"header\">\n-\n-        <div>\n-            <div>\n-                <img src=\"{{ asset('Nouveau dossier (2)/18.jpg')}}\" alt=\"LogoDgi\" class=\"logo\">\n-            </div>\n-            <ul>\n-                <i>\n-                <li>ANNIVERSAIRE</li>\n-                <li>MARIAGE</li>\n-                <li>DOTE</li>\n-                <li>DINER</li>\n-                <li>SUPRISE</li>\n-                <li>EMBALLAGE</li>\n-                <li>BAPTEME</li>\n-                <li>ENTERREMENT</li>\n-                <li>RECEPTION</li>\n-                <li>INAUGURATION</li>\n-            </i>\n-            </ul>\n-            </div>\n-            <center><p><i><b>NOUS SOMMES DISPONIBLE POUR EMBELLIR TOUT VOS EVENEMENTS</b></i></p></center>\n-        </header>\n-    <div class=\"container\">\n-        <div class=\"row\">\n-            <div class=\"col\">\n-            <h1 class=\"scrolling-text\"><i>BIENVENUE A CHRIST DECOR </i></h1>\n-            </div>\n-        </div>\n-    </div>\n-    <div class=\"container\">\n-        <div class=\"row\">\n-            <div class=\"col\">\n-                <center><h1><i> NOUS ASSURONS L'EMBELLISSEMENT DE VOS EVENEMENTS </i></h1></center>\n-            </div>\n-        </div>\n-    </div>\n-    <div class=\"image-container\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/3.jpg')}}\" alt=\"Image 1\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/4.jpg')}}\" alt=\"Image 2\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/5.jpg')}}\" alt=\"Image 3\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/6.jpg')}}\" alt=\"Image 4\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/11.jpg')}}\" alt=\"Image 4\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/17.jpg')}}\" alt=\"Image 4\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/16.jpg')}}\" alt=\"Image 4\">\n-        <img src=\"{{ asset('Nouveau dossier (2)/14.jpg')}}\" alt=\"Image 4\">\n-    </div>\n-</body>\n-\n-</html>\n-<style>\n-    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=EB+Garamond:ital,wght@1,700;1,800&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');\n-\n-body{\n-   background: linear-gradient(100deg, rgb(255, 255, 255), rgb(102, 175, 105), white);\n-}\n-.header{\n-    background-color: #baf1d3;\n-}\n-ul i{\n-    list-style: none;\n-   float:right;\n-    display: flex;\n-    margin-top: -150px;\n-\n-}\n-p{\n-    margin-top: -40px;\n-}\n-ul i li {\n-    text-decoration:none ;\n-    color: #000;\n-    text-transform: uppercase ;\n-   border: 1px transparent;\n-   background-color: rgb(177, 228, 177);\n-   border-radius: 10px;\n-    margin: 9px;\n-    font-weight: bold;\n-}\n-\n-@media (max-width:733px) {\n-    ul li a{\n-flex-direction: column;\n-align-items: center;\n-margin: 0;\n-left: 20%;\n-    }\n-}\n-.titre h1{\n-    color: #fff;\n-    font-weight: bold;\n-}\n-.logo{\n-    width: 200px;\n-    height: 180px;\n-}\n-\n-@media all and (max-width: 290px) {\n-    .titre {\n-        top: 40%;\n-    }\n-\n-    .button {\n-        top: 50%;\n-        flex-direction: column;\n-        align-items: center;\n-    }\n-\n-    .button a {\n-        margin: 10px 0;\n-    }\n-}\n-.image-container{\n-    text-align: center;\n-}\n-.image-container img{\n-    display: inline-block;\n-}\n-.scrolling-text {\n-    white-space: nowrap;\n-    overflow: hidden;\n-    animation: scroll-text 20s linear infinite;\n-}\n-\n-@keyframes scroll-text {\n-    0% {\n-        transform: translateX(100%);\n-    }\n-    100% {\n-        transform: translateX(-100%);\n-    }\n-}\n-.image-container img {\n-    width: 280px;\n-   height: 300px;\n-\n-}\n-\n-</style>\n"
+                },
+                {
+                    "date": 1698488062698,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,9 +93,9 @@\n     font-weight: bold;\n }\n \n @media (max-width:733px) {\n-\n+ \n }\n .titre h1{\n     color: #fff;\n     font-weight: bold;\n"
                 }
             ],
             "date": 1698355021907,
